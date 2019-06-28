@@ -28,28 +28,28 @@ import Wailing from "../res/movies/wailing.jpg"
 import Whiplash from "../res/movies/whiplash.jpg"
 
 // tv shows
-import Ajin from "../res/tv/ajin.jpg";
-import AmerVan from "../res/tv/american vandal.jpg";
-import AttackTitan from "../res/tv/attack on titan.jpg";
-import BlackMirror from "../res/tv/black mirror.jpg";
-import BlackSummer from "../res/tv/black sum.jpg";
-import DarkCrystal from "../res/tv/dark crystal.jpg";
-import Dark from "../res/tv/dark.jpg";
-import Dman from "../res/tv/dman.jpg";
-import Eastbound from "../res/tv/eastbound.jpg";
-import Hsod from "../res/tv/hsod.jpg";
-import Hxh from "../res/tv/hxh.jpeg";
-import Inu from "../res/tv/inu.jpg";
-import Kagu from "../res/tv/kagu.jpeg";
-import Katana from "../res/tv/katanagatari.jpg";
-import ModernFamily from "../res/tv/modern family.jpg";
-import MyHero from "../res/tv/my hero poster.jpg";
-import Nge from "../res/tv/nge.jpg";
-import Office from "../res/tv/office.jpg";
-import RKelly from "../res/tv/rkelly.jpg";
-import Roanoke from "../res/tv/roanoke.jpg";
-import Stranger from "../res/tv/stranger.jpg";
-import Watership from "../res/tv/watership.jpg";
+import Ajin from "../res/tv-shows/ajin.jpg";
+import AmerVan from "../res/tv-shows/american vandal.jpg";
+import AttackTitan from "../res/tv-shows/attack on titan.jpg";
+import BlackMirror from "../res/tv-shows/black mirror.jpg";
+import BlackSummer from "../res/tv-shows/black sum.jpg";
+import DarkCrystal from "../res/tv-shows/dark crystal.jpg";
+import Dark from "../res/tv-shows/dark.jpg";
+import Dman from "../res/tv-shows/dman.jpg";
+import Eastbound from "../res/tv-shows/eastbound.jpg";
+import Hsod from "../res/tv-shows/hsod.jpg";
+import Hxh from "../res/tv-shows/hxh.jpeg";
+import Inu from "../res/tv-shows/inu.jpg";
+import Kagu from "../res/tv-shows/kagu.jpeg";
+import Katana from "../res/tv-shows/katanagatari.jpg";
+import ModernFamily from "../res/tv-shows/modern family.jpg";
+import MyHero from "../res/tv-shows/my hero poster.jpg";
+import Nge from "../res/tv-shows/nge.jpg";
+import Office from "../res/tv-shows/office.jpg";
+import RKelly from "../res/tv-shows/rkelly.jpg";
+import Roanoke from "../res/tv-shows/roanoke.jpg";
+import Stranger from "../res/tv-shows/stranger.jpg";
+import Watership from "../res/tv-shows/watership.jpg";
 
 // users
 import Av1 from "../res/avatars/avi-1.png";
@@ -78,34 +78,34 @@ import Tbh from "../res/music/tbhero.jpg";
 import Yi from "../res/music/yuri-ice.jpg";
 
 // apps
-import MusicLogo from "../res/music logo.png";
-import TvLogo from "../res/tv logo.jpg";
-import MoviesLogo from "../res/movies logo.jpg";
-import AppStoreLogo from "../res/app store logo.png";
-import PhotosLogo from "../res/photos logo.jpg";
+import MusicLogo from "../res/apps/music logo.png";
+import TvLogo from "../res/apps/tv logo.jpg";
+import MoviesLogo from "../res/apps/movies logo.jpg";
+import AppStoreLogo from "../res/apps/app store logo.png";
+import PhotosLogo from "../res/apps/photos logo.jpg";
 
-import HuluLogo from "../res/hulu logo.jpg";
-import FxLogo from "../res/fx logo.jpeg";
-import HboGoLogo from "../res/hbo now logo.jpg";
-import NbaLogo from "../res/nba logo.jpg";
-import NbcLogo from "../res/nbc logo.jpg";
+import HuluLogo from "../res/apps/hulu logo.jpg";
+import FxLogo from "../res/apps/fx logo.jpeg";
+import HboGoLogo from "../res/apps/hbo now logo.jpg";
+import NbaLogo from "../res/apps/nba logo.jpg";
+import NbcLogo from "../res/apps/nbc logo.jpg";
 
-import PrimeLogo from "../res/prime video logo.png";
-import VrvLogo from "../res/vrv logo.png";
-import YtubeLogo from "../res/youtube logo.png";
-import ShowLogo from "../res/showtime logo.jpg";
-import TedLogo from "../res/ted logo.png";
+import PrimeLogo from "../res/apps/prime video logo.png";
+import VrvLogo from "../res/apps/vrv logo.png";
+import YtubeLogo from "../res/apps/youtube logo.png";
+import ShowLogo from "../res/apps/showtime logo.jpg";
+import TedLogo from "../res/apps/ted logo.png";
 
-import SettingsLogo from "../res/settings logo.png";
-import FireplaceLogo from "../res/fireplace logo.jpg";
-import AbcLogo from "../res/abc logo.jpg";
-import EspnLogo from "../res/espn logo.jpg";
-import AmcLogo from "../res/amc logo.jpg";
+import SettingsLogo from "../res/apps/settings logo.png";
+import FireplaceLogo from "../res/apps/fireplace logo.jpg";
+import AbcLogo from "../res/apps/abc logo.jpg";
+import EspnLogo from "../res/apps/espn logo.jpg";
+import AmcLogo from "../res/apps/amc logo.jpg";
 
-import PodcastLogo from "../res/podcast logo.jpg";
-import AquariumLogo from "../res/aquarium logo.jpg";
-import NetflixLogo from "../res/netflix logo.png";
-import AudioBookLogo from "../res/audiobooks logo.jpg";
+import PodcastLogo from "../res/apps/podcast logo.jpg";
+import AquariumLogo from "../res/apps/aquarium logo.jpg";
+import NetflixLogo from "../res/apps/netflix logo.png";
+import AudioBookLogo from "../res/apps/audiobooks logo.jpg";
 
 // row 1
 export const apps1 = [{

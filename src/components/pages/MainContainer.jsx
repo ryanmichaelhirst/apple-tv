@@ -3,7 +3,7 @@ import Row from "../wrappers/Row";
 import AppCard from "../cards/AppCard";
 import MediaSlider from "../sliders/MediaSlider";
 import { apps1, apps2, apps3, apps4, apps5 } from "../../data";
-import PhotoBackground from "../../res/background/photos.png";
+import PhotoBackground from "../../res/photos/photos.png";
 import Column from "../wrappers/Column";
 
 const style = {
