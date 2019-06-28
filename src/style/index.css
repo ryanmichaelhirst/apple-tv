@@ -1,0 +1,187 @@
+:root {
+    --primary-background: #d9e3eb;
+    --primary-white: #f2f9ff;
+}
+
+body {
+    margin: 0px;
+    background: var(--primary-background);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.card {
+    display: inline-block;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: all .7s ease-in-out;
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.card-lg {
+    height: 350px;
+}
+
+.card-lg:hover {
+    transform: scale(1.02);
+}
+
+.card-sm {
+    height: 150px;
+}
+
+.card-sm:hover {
+    transform: scale(1.03);
+    box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.7);
+}
+
+.card-caption {
+    position: relative;
+    z-index: 2;
+    transition: all .7s ease-in-out;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+}
+
+.user-card {
+    height: 150px;
+    background-size: contain;
+}
+
+.user-card:hover {
+    transform: scale(1.03);
+}
+
+.highlight-row {
+    background: var(--primary-white);
+}
+
+.scrollable-row {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 15px 5px;
+    height: 430px;
+    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+}
+
+.full-bg {
+    position: relative;
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+
+.loader {
+    position: absolute;
+    bottom: 15px;
+    display: inline-block;
+    border: 4px solid var(--primary-white);
+    border-radius: 50%;
+    border-top: 4px solid #c19191;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.app-page {
+    height: 100vh;
+    color: white;
+}
+
+.back-arrow {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 5px 0px 0px 30px;
+    font-size: 30px;
+    transition: all .7s ease-in-out;
+}
+
+.back-arrow:hover {
+    transform: translateX(-8px);
+    color: #837dff;
+}
+
+.col {
+    display: inline-block;
+    margin: 15px 10px 0px 10px;
+}
+
+.animated-col {
+    width: 100%;
+}
+
+.col-5 {
+    width: 18%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-8 {
+    width: 12%;
+}
+
+@media (max-width: 1100px) {
+    .col-5 {
+        width: 17%;
+    }
+}
+
+@media (max-width: 880px) {
+    .col-8 {
+        width: 11%;
+    }
+
+    .user-card {
+        height: 100px;
+    }
+
+    .card-caption {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .col-8 {
+        width: 10%;
+    }
+
+    .user-card {
+        height: 70px;
+    }
+
+    .card-caption {
+        font-size: 14px;
+    }
+
+    .col-5 {
+        width: 15%;
+    }
+}
+
+.centered-container {
+    width: 98%;
+    margin: 0 auto;
+}
