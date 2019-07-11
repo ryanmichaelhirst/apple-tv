@@ -8,20 +8,17 @@ const AppCard = ({ animate, caption, img, onChange, type }) => {
     const [direction, setDirection] = useState("topRight");
 
     useEffect(() => {
-        const setDimensions = () => {
-            const y = ref.current.offsetTop > window.innerHeight ? "bot" : "top";
-            // console.log("window height %s ref height %s direction %s", window.innerHeight, ref.current.offsetTop, y);
-            const x = (ref.current.offsetLeft * 2) < window.innerWidth ? "Left" : "Right";
-            // console.log("window width %s ref width %s direction %s", window.innerWidth, ref.current.offsetLeft, x);
-            setDirection(y + x);
-        };
-        setDimensions();
-        window.addEventListener("resize", setDimensions);
-
-        // clean up after this effect
+       const setDimensions = () => {
+           const y = ref.current.offsetTop > window.innerHeight ? "bot" : "top";
+           const x = (ref.current.offsetLeft * 2) < window.innerWidth ? "Left" : "Right";
+           setDirection(y + x);
+       };
+       setDimensions();
+       window.addEventListener("resize", setDimensions);
+       // clean up after this effect
         return () => {
             window.removeEventListener("resize", setDimensions);
-        }
+        };
     }, [ref]);
 
     const onClick = () => {
@@ -42,12 +39,12 @@ const AppCard = ({ animate, caption, img, onChange, type }) => {
             direction={direction}
             className="animated-col"
         >
-            <CaptionCard
-                className="card card-sm"
-                onClick={onClick}
-                img={img}
-                caption={caption}
-            />
+           <CaptionCard
+               className="card card-sm"
+               onClick={onClick}
+               img={img}
+               caption={caption}
+           />
         </AnimationWrapper>
     );
 };

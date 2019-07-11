@@ -2,7 +2,7 @@ import React from "react";
 
 const Row = ({ children, className, style }) => {
     return (
-        <div className={`row ${className}`} style={style}>
+        <div className={className} style={style}>
             {children}
         </div>
     );

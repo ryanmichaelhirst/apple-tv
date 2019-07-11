@@ -9,14 +9,14 @@ const TvSlider = () => {
             {tvShows.map(tvShow => {
                 return (
                     <Column className="col-4" key={tvShow.caption}>
-                        <CaptionCard 
+                        <CaptionCard
                             className="card card-lg"
-                            img={tvShow.img} 
-                            caption={tvShow.caption} 
-                            onClick={() => window.open(`${tvShow.link}`, '_blank')}
+                            img={tvShow.img}
+                            caption={tvShow.caption}
+                            onClick={() => window.open(`${tvShow.link}`, "_blank")}
                         />
                     </Column>
-                );
+                )
             })}
         </Fragment>
     );

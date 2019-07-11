@@ -6,13 +6,13 @@ import Column from "../wrappers/Column";
 const AppStoreSlider = () => {
     return (
         <Fragment>
-            {appStores.map(obj => {
+            {appStores.map(appStore => {
                 return (
-                    <Column style={{ width: "60%" }} key={obj.caption}>
+                    <Column style={{ width: "60%" }} key={appStore.caption}>
                         <CaptionCard
                             className="card card-lg"
-                            img={obj.img} 
-                            caption={obj.caption} 
+                            img={appStore.img}
+                            caption={appStore.caption}
                         />
                     </Column>
                 );

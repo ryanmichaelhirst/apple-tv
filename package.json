@@ -1,5 +1,5 @@
 {
-  "name": "apple-tv",
+  "name": "apple-tv-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "styled-components": "^4.2.1"
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

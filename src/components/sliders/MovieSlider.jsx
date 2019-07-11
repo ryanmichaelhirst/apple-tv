@@ -11,12 +11,12 @@ const MovieSlider = () => {
                     <Column style={{ width: 250 }} key={movie.caption}>
                         <CaptionCard
                             className="card card-lg"
-                            img={movie.img} 
-                            caption={movie.caption} 
-                            onClick={() => window.open(`${movie.link}`, '_blank')}
+                            img={movie.img}
+                            caption={movie.caption}
+                            onClick={() => window.open(`${movie.link}`, "_blank")}
                         />
                     </Column>
-                ); 
+                )
             })}
         </Fragment>
     );

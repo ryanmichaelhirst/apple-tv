@@ -1,14 +1,14 @@
 import React from "react";
-import MovieSlider from "./MovieSlider";
 import TvSlider from "./TvSlider";
 import AppStoreSlider from "./AppStoreSlider";
+import MovieSlider from "./MovieSlider";
 import MusicSlider from "./MusicSlider";
 
 const MediaSlider = ({ mediaType }) => {
-    if (mediaType === "movie")
-        return <MovieSlider />;
-    else if (mediaType === "tv")
+    if (mediaType === "tv")
         return <TvSlider />;
+    else if (mediaType === "movie")
+        return <MovieSlider />;
     else if (mediaType === "app")
         return <AppStoreSlider />;
     else if (mediaType === "music")
@@ -16,7 +16,7 @@ const MediaSlider = ({ mediaType }) => {
     else if (mediaType === "photo")
         return null;
     else
-        return <p>Oh no! We don't have a slider for that type</p>;
+        return <p>Oh no! We don't support that media type yet!</p>;
 };
 
 MediaSlider.defaultProps = {

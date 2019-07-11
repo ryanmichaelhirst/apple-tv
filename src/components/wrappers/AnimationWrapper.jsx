@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 const topLeft = "-100px, -100px";
 const topRight = "100px, -100px";
@@ -17,31 +17,31 @@ const getCoords = direction => {
 };
 
 const fadeIn = keyframes`
-  from {
-    transform: scale(.25);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
+    from {
+        transform: scale(.25);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 `;
 
-const fadeOut = (coords) => keyframes`
-  from {
-    transform: scale(1);
-    opacity: 1;
-  }
-  to {
-    transform: translate(${coords}) scale(.25);
-    opacity: 0;
-  }
+const fadeOut = coords => keyframes`
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: translate(${coords}) scale(.25);
+        opacity: 0;
+    }
 `;
 
 const Animate = styled.div`
     display: inline-block;
     position: relative;
-    visibility: ${props => props.animate ? 'hidden' : 'visible'};
+    visibility: ${props => props.animate ? 'hidden' : 'visible'}
     animation: ${props => props.animate ? fadeOut(getCoords(props.direction)) : fadeIn} 1s linear;
 `;
 

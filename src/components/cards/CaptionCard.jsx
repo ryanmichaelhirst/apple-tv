@@ -5,14 +5,14 @@ const CaptionCard = ({ caption, className, img, onClick }) => {
 
     return (
         <Fragment>
-            <div 
+            <div
                 className={className}
                 onClick={onClick}
-                style={{ backgroundImage: `url("${img}")`}} 
+                style={{ backgroundImage: `url("${img}")`}}
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
             />
-            <p className="card-caption" style={{ color: hovered ? "white" : "transparent" }}>
+            <p className="card-caption" style={{ color: hovered ? "white" : "transparent"}}>
                 {caption}
             </p>
         </Fragment>
@@ -20,7 +20,7 @@ const CaptionCard = ({ caption, className, img, onClick }) => {
 };
 
 CaptionCard.defaultProps = {
-    caption: "your caption!",
+    caption: "your caption",
     className: "",
     img: null,
     onClick: null
